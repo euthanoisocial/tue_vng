@@ -1,0 +1,21 @@
+.pagination > li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.pagination > li > a {
+  color: black;
+  float: left;
+  text-decoration: none !important;
+}
+.pagination > li > a.page-link {
+  padding: 5px 14px;
+}
+.pagination > li.active > a {
+  background-color: #aaa3e0;
+  color: #fff;
+}
+.pagination {
+  text-align: center;
+}
+.pagination a:hover:not(.active) {background-color: #c9c5ec;color: black}
